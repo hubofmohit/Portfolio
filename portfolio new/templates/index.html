@@ -1,0 +1,145 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohit | Technical Consultant Portfolio</title>
+  <link rel="stylesheet" href="static/styles.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <div class="container flex-nav">
+      <div class="logo">MOHIT <span class="gold-text">|</span> ANALYST | FRONTEND DEVELOPER</div>
+
+      <button class="menu-toggle" aria-label="Toggle Menu">
+        ☰
+      </button>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#expertise">Expertise</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <main>
+    <section class="hero" id="about">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="subtitle">B.TECH GRADUATE & DATA SPECIALIST</p>
+          <h1>Strategic Insights Through Data Analysis.</h1>
+          <p class="description">Utilizing SQL, Python, Excel and Power BI to architect data-driven solutions for modern
+            technical challenges.</p>
+          <a href="#contact" class="btn-primary">Request Consultation</a>
+        </div>
+        <div class="hero-image-wrapper">
+          <div class="image-frame">
+            <img src="static/my_img.png" alt="Mohit Profile">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="expertise" class="section-gray">
+      <div class="container">
+        <h2 class="section-title">Areas of Expertise</h2>
+        <div class="expertise-grid">
+          <div class="exp-item">
+            <h3>Advanced Analytics</h3>
+            <p>Mastery of <strong>NumPy, Pandas, and Matplotlib</strong> for high-level statistical modeling and data
+              interpretation.</p>
+          </div>
+          <div class="exp-item">
+            <h3>Database Architecture</h3>
+            <p>Proficient in <strong>SQL and MongoDB</strong>, ensuring data integrity and optimized query performance.
+            </p>
+          </div>
+          <div class="exp-item">
+            <h3>Technical Stack</h3>
+            <p>Core programming expertise in <strong>Python</strong> for scalable software development.
+            </p>
+          </div>
+          <div class="exp-item">
+            <h3>Business Intelligence</h3>
+            <p>Transforming raw metrics into visual strategy via <strong>Power BI, Excel, and Google Sheets</strong>.
+            </p>
+          </div>
+          <div class="exp-item">
+            <h3>Frontend Development</h3>
+            <p>Creating responsive and interactive user interfaces with <strong>HTML, CSS, and JavaScript</strong>.
+            </p>
+          </div>
+          <div class="exp-item">
+            <h3>Advanced Frontend Development</h3>
+            <p>Creating responsive and interactive user interfaces with <strong>HTML5, Tailwind CSS, and React</strong>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-white">
+      <div class="container">
+        <h2 class="section-title">Representative Projects</h2>
+
+        <div class="project-row">
+          <div class="proj-number">01</div>
+          <div class="proj-content">
+            <h3><a href="https://github.com/hubofmohit/Fraud_Detection_System" style="color: #c5a059;">Financial Fraud Detection System</a></h3>
+            <p>A Python-based analytical framework designed to identify anomalous transaction patterns with high
+              accuracy.</p>
+          </div>
+        </div>
+
+        <div class="project-row">
+          <div class="proj-number">02</div>
+          <div class="proj-content">
+            <h3><a href="https://github.com/hubofmohit/Fake_News_Detection" style="color: #c5a059;">Predictive Fake News Classifier</a></h3>
+            <p>Utilizing Natural Language Processing to verify information integrity across large-scale digital
+              datasets.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-dark">
+      <div class="container contact-narrow">
+        <h2 class="section-title white-text">Formal Inquiry</h2>
+        <form class="legal-form">
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Professional Email" required>
+          </div>
+          <textarea name="message" placeholder="Message Details" rows="4"></textarea>
+          <button type="submit" class="btn-gold">Submit Documentation</button>
+          <p id="formStatus" style="margin-top:12px; display:none;"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container flex-nav">
+      <p>&copy; 2026 Mohit. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/mohitgarg10">LinkedIn</a>
+        <a href="https://github.com/hubofmohit">GitHub</a>
+      </div>
+    </div>
+  </footer>
+  <script src="static/script.js"></script>
+</body>
+
+</html>
